@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Croppr</title>
+  <!--  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no">-->
+    <meta name="description" content="Default Description">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="keywords" content="Croppr">
+    <meta name="robots" content="*">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="all">
+   <link rel="stylesheet" type="text/css" href="assets/css/revslider.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/other.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile-menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,400italic,700,800,900' rel='stylesheet' type='text/css'>-->
+
+</head>
+<body>
+<div id="page">
+    <header>
+
+        <div id="header" class="top-header-togle">
+            <div class="header-container container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" id="top-menu-tgl" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo/logocroppr.png" />
+                        </a>
+                        <div class="cropr-location hidden-lg hidden-md">
+                            <div class="location-map-cp"  data-toggle="modal" data-target="#myModal">
+                                <i class="fa fa-map-marker"></i> Mumbai
+                            </div>
+                        </div>
+
+                        <div class="cropr-home-cart hidden">
+                            <div class="shopping_cart">
+                                <div id="cart" class="btn-shopping-cart">
+
+                                    <a data-loading-text="Loading... " class="btn-group top_cart dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <div class="shopcart">
+                                                  <span class="icon-c">
+                                                    <i class="fa fa-cart-plus"></i>
+                                                  </span>
+                                            <div class="shopcart-inner">
+                                                <!--<p class="text-shopping-cart">
+                                                    My cart
+                                                </p>-->
+                                                <span class="total-shopping-cart cart-total-full">
+                                                      <span class="items_cart">1</span>
+                                                    </span>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <ul class="dropdown-menu pull-right shoppingcart-box"><li class="content-item">
+                                        <table class="table table-striped" style="margin-bottom:10px;">
+                                            <tbody>
+                                            <tr id="wishlist1">
+                                                <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p1.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                <td class="text-right">x1</td>
+                                                <td class="text-right">Rs.29,990.00</td>
+                                                <td class="text-center"> <i class="fa fa-trash-o"></i> </td>
+                                            </tr>
+                                            <tr id="wishlist1">
+                                                <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p5.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                <td class="text-right">x1</td>
+                                                <td class="text-right">Rs.29,990.00</td>
+                                                <td class="text-center"> <i class="fa fa-trash-o"></i></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </li>
+                                        <li>
+                                            <div class="checkout clearfix">
+                                                <a href="wishlist.html" class="btn btn-success btn-view-cart"> View Cart</a>
+                                                <a href="checkout.html" class="btn btn-checkout pull-right">Checkout</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="col-md-1 hidden-xs hidden-sm">
+                            <div class="mapp">
+                                <div class="_87dff map-loc">
+                                    <div class="_2z2N5"  data-toggle="modal" data-target="#myModal">
+                                <span class="_1tcx6">
+                                    <span class="_3odgy" style="cursor:pointer"><i class="fa fa-map-marker"></i> Mumbai</span></span>
+                                        <span class="icon-downArrow kVKTT"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 hidden-sm hidden-xs">
+                            <div class="collapse navbar-collapse top-searchbar">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                        <input class="GlobalNavSearch js-globalSearchInput " placeholder="Search" id="desktopSearchInput" data-reactid=".1.0.0.0">
+                                        <label class="GlobalNavSearch-searchIcon" for="desktopSearchInput" data-reactid=".1.0.0.1"></label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="login-btn">
+                                        <div class="login-btn">
+                                            <button type="button" class="btn-login continue"  data-toggle="modal" data-target="#costumModal19"><i class="fa fa-lock"></i>  Login</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="register-btn">
+                                        <div class="register-btn">
+                                            <button type="button" onclick="window.location.href='register.html';" class="btn-register continue"><i class="fa fa-sign-in"></i>  Register</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------cart design - ---------------- -->
+                                <div class="col-md-4 hidden-sm hidden-xs">
+                                    <div class="shopping_cart">
+                                        <div id="cart" class="btn-shopping-cart">
+
+                                            <a data-loading-text="Loading... " class="btn-group top_cart dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                <div class="shopcart">
+                                                  <span class="icon-c">
+                                                    <i class="fa fa-cart-plus"></i>
+                                                  </span>
+                                                    <div class="shopcart-inner">
+                                                        <!--<p class="text-shopping-cart">
+                                                            My cart
+                                                        </p>-->
+                                                        <span class="total-shopping-cart cart-total-full">
+                                                      <span class="items_cart">1</span>
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <ul class="dropdown-menu pull-right shoppingcart-box"><li class="content-item">
+                                                <table class="table table-striped" style="margin-bottom:10px;">
+                                                    <tbody>
+                                                    <tr id="wishlist1">
+                                                        <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p1.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                        <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                        <td class="text-right">x1</td>
+                                                        <td class="text-right">Rs.29,990.00</td>
+                                                        <td class="text-center"> <i class="fa fa-trash-o"></i> </td>
+                                                    </tr>
+                                                    <tr id="wishlist1">
+                                                        <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p5.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                        <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                        <td class="text-right">x1</td>
+                                                        <td class="text-right">Rs.29,990.00</td>
+                                                        <td class="text-center"> <i class="fa fa-trash-o"></i></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </li>
+                                                <li>
+                                                    <div class="checkout clearfix">
+                                                        <a href="wishlist.html" class="btn btn-success btn-view-cart"> View Cart</a>
+                                                        <a href="checkout.html" class="btn btn-checkout pull-right">Checkout</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ---------end cart design --------------- -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--container-->
+    <div class="content">
+
+        <div id="tmg-slideshow" class="tmg-slideshow">
+            <div class="container">
+                <div id='thm_slider_wrapper' class='thm_slider_wrapper fullwidthbanner-container' >
+                    <div id='thm-rev-slider' class='rev_slider fullwidthabanner'>
+                        <ul>
+                            <li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb='assets/images/slider/friuts.jpg'><img src='assets/images/slider/friuts.jpg'  data-bgposition='left top'  data-bgfit='cover' data-bgrepeat='no-repeat' alt="" />
+                                <!--<div class="info">
+                                    <div class='tp-caption LargeTitle sfl  tp-resizeme ' data-x='0'  data-y='230'  data-endspeed='500'  data-speed='500' data-start='1300' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:3;max-width:auto;max-height:auto;white-space:nowrap;'><span>Awesome Design</span></div>
+                                    <div class='tp-caption sfb  tp-resizeme ' data-x='0'  data-y='420'  data-endspeed='500'  data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:4;max-width:auto;max-height:auto;white-space:nowrap;'><a href='#' class="buy-btn">Shop Now</a></div>
+                                    <div    class='tp-caption Title sft  tp-resizeme ' data-x='0'  data-y='320'  data-endspeed='500'  data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:4;max-width:auto;max-height:auto;white-space:nowrap;'>Pellentesque habitant morbi tristique <br> senectus et netus et malesuada</div>
+                                </div>-->
+                            </li>
+                            <li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb='assets/images/slider/Vegetabl.jpg'><img src='assets/images/slider/Vegetabl.jpg'  data-bgposition='left top'  data-bgfit='cover' data-bgrepeat='no-repeat' alt=""  />
+                                <!--<div class="info">
+                                    <div class='tp-caption LargeTitle sfl  tp-resizeme ' data-x='0'  data-y='230'  data-endspeed='500'  data-speed='500' data-start='1300' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:3;max-width:auto;max-height:auto;white-space:nowrap;'><span>Flipmart Hot Collection</span></div>
+                                    <div class='tp-caption sfb  tp-resizeme ' data-x='0'  data-y='420'  data-endspeed='500'  data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:4;max-width:auto;max-height:auto;white-space:nowrap;'><a href='#' class="buy-btn">Shop Now</a></div>
+                                    <div    class='tp-caption Title sft  tp-resizeme ' data-x='0'  data-y='320'  data-endspeed='500'  data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:4;max-width:auto;max-height:auto;white-space:nowrap;'>Pellentesque habitant morbi tristique <br> senectus et netus et malesuada</div>
+                                </div>-->
+                            </li>
+
+                            <li data-transition='random' data-slotamount='7' data-masterspeed='1000' data-thumb='assets/images/slider/beer.jpg'><img src='assets/images/slider/beer.jpg'  data-bgposition='left top'  data-bgfit='cover' data-bgrepeat='no-repeat' alt=""  />
+                                <!--<div class="info">
+                                    <div class='tp-caption LargeTitle sfl  tp-resizeme ' data-x='0'  data-y='230'  data-endspeed='500'  data-speed='500' data-start='1300' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:3;max-width:auto;max-height:auto;white-space:nowrap;'><span>Flipmart Hot Collection</span></div>
+                                    <div class='tp-caption sfb  tp-resizeme ' data-x='0'  data-y='420'  data-endspeed='500'  data-speed='500' data-start='1500' data-easing='Linear.easeNone' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:4;max-width:auto;max-height:auto;white-space:nowrap;'><a href='#' class="buy-btn">Shop Now</a></div>
+                                    <div    class='tp-caption Title sft  tp-resizeme ' data-x='0'  data-y='320'  data-endspeed='500'  data-speed='500' data-start='1500' data-easing='Power2.easeInOut' data-splitin='none' data-splitout='none' data-elementdelay='0.1' data-endelementdelay='0.1' style='z-index:4;max-width:auto;max-height:auto;white-space:nowrap;'>Pellentesque habitant morbi tristique <br> senectus et netus et malesuada</div>
+                                </div>-->
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- --------------------------------category of product ------------------- -->
+        <section class=" wow bounceInUp animated">
+            <div class="best-pro slider-items-products container">
+                <div class="new_title">
+                    <h2>Super Market</h2>
+                    <div class="view-all">
+                        <a class="" href="category.html"> View all </a>
+                    </div>
+                </div>
+
+
+                <div id="best-seller" class="product-flexslider hidden-buttons prdt-btn">
+                    <div class="slider-items slider-width-col4 products-grid">
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/mango.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href=""  onclick="window.location.href='details.html';" title="">Fresh Mango</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 Dozen</option>
+                                                                <option>2 Dozen</option>
+                                                                <option>3 Dozen</option>
+                                                                <option>5 Dozen</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="Retis lapen casen" class="product-image"><img src="assets/images/products-images/p2.jpg" alt="Retis lapen casen"></a>
+
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href=""  onclick="window.location.href='details.html';" title="">Mandar's Frozen Strawberry</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 Dozen</option>
+                                                                <option>2 Dozen</option>
+                                                                <option>3 Dozen</option>
+                                                                <option>5 Dozen</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/banana.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="">Fresh Ripe Banana</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 Dozen</option>
+                                                                <option>2 Dozen</option>
+                                                                <option>3 Dozen</option>
+                                                                <option>5 Dozen</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" title="" onclick="window.location.href='details.html';" class="product-image"><img src="assets/images/products-images/p12.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Red Cherry</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 Dozen</option>
+                                                                <option>2 Dozen</option>
+                                                                <option>3 Dozen</option>
+                                                                <option>5 Dozen</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p11.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Papaya</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" id="addcart" onclick="window.location.href='details.html';" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" id="buynow" onclick="window.location.href='details.html';" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="details.html" title="" class="product-image"><img src="assets/images/products-images/p7.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Fresh Juicy Pomegranate</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price"><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro"><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------..//end category of product ----------------- -->
+
+        <!-- -----------------banner of full width ------------------- -->
+        <div class="latest-blog wow bounceInUp animated animated container ">
+            <div class="blog_block">
+                <div class="blog_block_inner">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-6 blog-post">
+                        <div class="blog_inner">
+                            <div class="blog-img"> <a href=""> <img src="assets/images/banner/spices.jpg" alt=""> </a>
+                               <!-- <div class="mask"> <a class="info" href="">Read More</a> </div>-->
+                            </div>
+                            <!--blog-img-->
+                        </div>
+                        <!--blog_inner-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------..//end full width banner ---------------- -->
+
+        <!-- --------------------------------category of Vagitale product ------------------- -->
+        <section class=" wow bounceInUp animated">
+            <div class="best-pro slider-items-products container organic-mkt prdt-btn">
+                <div class="new_title">
+                    <h2>The Organic Market</h2>
+                    <div class="view-all">
+                        <a class="" href="category.html"> View all</a>
+                    </div>
+                </div>
+
+
+                <div id="best-seller" class="product-flexslider hidden-buttons">
+                    <div class="slider-items slider-width-col4 products-grid">
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p5.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="">Bitter Gourd</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p8.jpg" alt=""></a>
+
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href=""  onclick="window.location.href='details.html';" title="">Fresh Vagitable</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p10.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="">Banana</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" title="" onclick="window.location.href='details.html';" class="product-image"><img src="assets/images/products-images/p3.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Retis lapen casen</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p5.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Bitter Gourd</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" id="addcart" onclick="window.location.href='details.html';" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" id="buynow" onclick="window.location.href='details.html';" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="details.html" title="" class="product-image"><img src="assets/images/products-images/p6.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Retis lapen casen</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price"><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro"><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------..//end category of product ----------------- -->
+
+        <!-- -----------------banner of full width ------------------- -->
+        <div class="latest-blog wow bounceInUp animated animated container">
+            <div class="blog_block">
+                <div class="blog_block_inner">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-6 blog-post">
+                        <div class="blog_inner">
+                            <div class="blog-img"> <a href=""> <img src="assets/images/banner/OrganicVegetable.jpg" alt=""> </a>
+                                <!--<div class="mask"> <a class="info" href="">Read More</a> </div>-->
+                            </div>
+                            <!--blog-img-->
+                        </div>
+                        <!--blog_inner-->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ------------------..//end full width banner ---------------- -->
+
+        <!-- --------------------------------category of recommended offer product ------------------- -->
+        <section class=" wow bounceInUp animated">
+            <div class="best-pro slider-items-products container recommend-ofr prdt-btn">
+                <div class="new_title">
+                    <h2>Recommended Offer</h2>
+                    <div class="view-all">
+                        <a class="" href="category.html"> View all</a>
+                    </div>
+                </div>
+
+
+                <div id="best-seller" class="product-flexslider hidden-buttons">
+                    <div class="slider-items slider-width-col4 products-grid">
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p5.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="">Fresh Juicy Pomegranate</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p8.jpg" alt=""></a>
+
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href=""  onclick="window.location.href='details.html';" title="">Bitter Gourd</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button"  onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p10.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="">Banana</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" title="" onclick="window.location.href='details.html';" class="product-image"><img src="assets/images/products-images/p3.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Vegetable</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="JavaScript:void(0);" onclick="window.location.href='details.html';" title="" class="product-image"><img src="assets/images/products-images/p5.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title="">Ladyfinger</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price" ><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro" ><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" id="addcart" onclick="window.location.href='details.html';" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" id="buynow" onclick="window.location.href='details.html';" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+
+                        <!-- Item -->
+                        <div class="item">
+                            <div class="item-inner">
+                                <div class="item-img">
+                                    <div class="item-img-info"><a href="details.html" title="" class="product-image"><img src="assets/images/products-images/p6.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <div class="info-inner">
+                                        <div class="item-title text-center"><a href="" onclick="window.location.href='details.html';" title=""> Vegetable</a> </div>
+                                        <div class="item-price">
+                                            <ul class="list-unstyled">
+                                                <li class="pro-qty">
+                                                    <div class="cropr-qty">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon">Qty</span>
+                                                            <select class="form-control" id="select-qty">
+                                                                <option>1 KG</option>
+                                                                <option>2 KG</option>
+                                                                <option>3 KG</option>
+                                                                <option>5 KG</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="price-box">
+                                                        <span class="regular-price"><span class="price"><i class="fa fa-inr"></i> 125</span> </span>
+                                                        <span class="old-price-pro"><span class="price"><i class="fa fa-inr"></i> 25</span> </span>
+                                                    </div>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="item-content">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <div class="pro-qty">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="addcart" class="btn btn-success btn-kart"><i class="fa fa-cart-plus"></i> Add To Cart</button>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="buy-now">
+                                                        <button type="button" onclick="window.location.href='details.html';" id="buynow" class="btn btn-success btn-buy"><i class="fa fa-inr"></i> Buy Now</button>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------------..//end recommended offer of product ----------------- -->
+
+
+        <!-- ------------------small banner -------------------- -->
+        <div class="latest-blog wow bounceInUp animated animated container hidden">
+            <!--exclude For version 6 -->
+            <div class="new_title">
+                <h2>Latest Blog</h2>
+            </div>
+            <!--blog-title-->
+            <!--For version 1,2,3,4,5,6,8 -->
+
+            <div class="blog_block">
+                <div class="blog_block_inner">
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 blog-post">
+                        <div class="blog_inner">
+                            <div class="blog-img"> <a href="JavaScript:void(0);"> <img src="assets/images/banner/herbs%20and%20spices.jpg" alt=""> </a>
+                                <div class="mask"> <a class="info" href="JavaScript:void(0);">Read More</a> </div>
+                            </div>
+                            <!--blog-img-->
+                        </div>
+                        <!--blog_inner-->
+                    </div>
+                    <!--col-lg-4 col-md-4 col-xs-12 col-sm-4-->
+                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 blog-post">
+                        <div class="blog_inner">
+                            <div class="blog-img"> <a href="JavaScript:void(0);"> <img src="assets/images/banner/vegitable.jpg" alt=""> </a>
+                                <div class="mask"> <a class="info" href="JavaScript:void(0);">Read More</a> </div>
+                            </div>
+                            <!--blog-img-->
+
+                        </div>
+                        <!--blog_inner-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- --------------------..//end small banner ---------------- -->
+  <!-- -----------testimonial ------------------------------- -->
+    <section id="testimonial">
+        <div class="brand-logo wow bounceInUp animated" id="testimonial_conta">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 testimonials-section">
+                        <div class="">
+                            <ul class="bxslider">
+                                <li>
+                                    <div class="avatar"><img src="assets/images/member1.png" alt="Image"></div>
+                                    <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
+                                    <div class="clients_author">John Doe	<span>Abc Company</span>	</div>
+                                </li>
+                                <li>
+                                    <div class="avatar"><img src="assets/images/member2.png" alt="Image"></div>
+                                    <div class="testimonials"><em>"</em> Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
+                                    <div class="clients_author">Saraha Smith	<span>Datsun & Co</span>	</div>
+                                </li>
+                                <li>
+                                    <div class="avatar"><img src="assets/images/member3.png" alt="Image"></div>
+                                    <div class="testimonials"><em>"</em>Vtae sodales aliq uam morbi non sem lacus port mollis. Nunc condime tum metus eud molest sed consectetuer.<em>"</em></div>
+                                    <div class="clients_author">Stephen Doe	<span>Xperia Designs</span>	</div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+    </section>
+
+    <!-- For version 1,2,3,4,6 -->
+
+    <footer>
+        <!-- BEGIN INFORMATIVE FOOTER -->
+        <div class="footer-inner">
+            <div class="newsletter-row">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Newsletter -->
+                        <div class="col-lg-12 col-md-12 col-sm-8 col-xs-12 col1">
+                            <div class="newsletter-wrap">
+                                <h4>Sign up for Email</h4>
+                                <form action="#" method="post" id="newsletter-validate-detail1">
+                                    <div id="container_form_news">
+                                        <div id="container_form_news2">
+                                            <input type="text" name="email" id="newsletter1" title="Sign up for our newsletter" class="input-text required-entry validate-email" placeholder="Enter your email address">
+                                            <button type="submit" title="Subscribe" class="button subscribe"><span>Subscribe</span></button>
+                                        </div>
+                                        <!--container_form_news2-->
+                                    </div>
+                                    <!--container_form_news-->
+                                </form>
+
+                            </div>
+                            <!--newsletter-wrap-->
+                        </div>
+
+                    </div>
+                </div>
+                <!--footer-column-last-->
+            </div>
+            <div class="container">
+                <!--<div class="row">
+                    <div class="col-sm-4 col-xs-12 col-lg-4">
+                        <div class="co-info">
+                            <h4>Contact Us</h4>
+                            <address>
+                                <div><em class="icon-location-arrow"></em> <span>Viral Shopping Center, Malad East</span></div>
+                                <div> <em class="icon-mobile-phone"></em><span> +(91) 9876543210</span></div>
+                                <div> <em class="icon-envelope"></em><span>Demo@test.com</span></div>
+                            </address>
+                            <div class="social">
+
+                                <ul class="link">
+                                    <li class="fb pull-left"><a target="_blank" rel="nofollow" href="#" title="Facebook"></a></li>
+                                    <li class="tw pull-left"><a target="_blank" rel="nofollow" href="#" title="Twitter"></a></li>
+                                    <li class="googleplus pull-left"><a target="_blank" rel="nofollow" href="#" title="GooglePlus"></a></li>
+                                    <li class="rss pull-left"><a target="_blank" rel="nofollow" href="#" title="RSS"></a></li>
+                                    <li class="pintrest pull-left"><a target="_blank" rel="nofollow" href="#" title="PInterest"></a></li>
+                                    <li class="linkedin pull-left"><a target="_blank" rel="nofollow" href="#" title="Linkedin"></a></li>
+                                    <li class="youtube pull-left"><a target="_blank" rel="nofollow" href="#" title="Youtube"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-xs-12 col-lg-8">
+                        <div class="footer-column">
+                            <h4>Shop at Croppr@home</h4>
+                            <ul class="links">
+                                <li><a href="faqs.html"> FAQs</a></li>
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                                <li><a href="about_us.html">About Us</a></li>
+                                <li><a href="term_condition.html">Terms & Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                <li class="first"><a href="return_refund.html">Returns and Refund</a></li>
+                                <li><a  href="order_return.html">Orders and Returns</a></li>
+                                <li><a href="return_policy.html"> Return Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Our services</h4>
+                            <ul class="links">
+                                <li><a href=""> Super Market</a></li>
+                                <li><a href="">Wine and Spirits</a></li>
+                                <li><a href="">The Organic Market</a></li>
+                                <li><a href="">Promotions</a></li>
+                                <li><a href="">Gifts and Donations</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul class="links">
+                                <li class="first"><a href="" data-toggle="modal" data-target="#costumModal19">Sign In</a></li>
+                                <li><a href="register.html" >Sign Up</a></li>
+                                <li class="first"><a href="dashboard.html" >My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 col-lg-4">
+                        <div class="co-info">
+                            <h4>Contact Us</h4>
+                            <address>
+                                <div><em class="icon-location-arrow"></em> <span>Viral Shopping Center, Malad East</span></div>
+                                <div> <em class="icon-mobile-phone"></em><span> +(91) 9876543210</span></div>
+                                <div> <em class="icon-envelope"></em><span>Demo@test.com</span></div>
+                            </address>
+                            <div class="social">
+
+                                <ul class="link">
+                                    <li class="fb pull-left"><a target="_blank" rel="nofollow" href="#" title="Facebook"></a></li>
+                                    <li class="tw pull-left"><a target="_blank" rel="nofollow" href="#" title="Twitter"></a></li>
+                                    <li class="googleplus pull-left"><a target="_blank" rel="nofollow" href="#" title="GooglePlus"></a></li>
+                                    <li class="rss pull-left"><a target="_blank" rel="nofollow" href="#" title="RSS"></a></li>
+                                    <li class="pintrest pull-left"><a target="_blank" rel="nofollow" href="#" title="PInterest"></a></li>
+                                    <li class="linkedin pull-left"><a target="_blank" rel="nofollow" href="#" title="Linkedin"></a></li>
+                                    <li class="youtube pull-left"><a target="_blank" rel="nofollow" href="#" title="Youtube"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-xs-12 col-lg-8">
+                        <div class="footer-column">
+                            <h4>Information</h4>
+                            <ul class="links">
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                                <li><a href="term_condition.html">Terms & Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Why buy from us</h4>
+                            <ul class="links">
+                                <li class="first"><a href="return_refund.html">Returns and Refund</a></li>
+                                <li><a  href="order_return.html">Orders and Returns</a></li>
+                                <li><a href="return_policy.html"> Return Policy</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul class="links">
+                                <li class="first"><a href="" data-toggle="modal" data-target="#costumModal19">Sign In</a></li>
+                                <li><a href="register.html" >Sign Up</a></li>
+                                <li class="first"><a href="dashboard.html" >My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- -------------------------bottom footer------------------------- -->
+    <div class="last-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                     <div class="block-coppyright text-center">
+                         © 2018 | Croppr All Rights &amp;  Reserved. Powered By <a href="https://www.itarsia.com/" class="itarsia" target="_blank">Itarsia India</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------bottom footer------------------------- -->
+</div>
+</div>
+<!--page-->
+<!-- Mobile Menu-->
+
+<!--
+<div class="popup1">
+
+    <div class="newsletter-sign-box">
+
+        <div class="newsletter">
+            <img src="assets/images/close-icon.png" alt="close" class="x1" onClick="HideMe();">
+            <form method="post" id="popup-newsletter" name="popup-newsletter" class="email-form">
+                <h3>Newsletter Sign up</h3>
+
+                <h4>Flipmart Men's clothing store is updated regularly with offers.</h4>
+                <div class="newsletter-form">
+                    <div class="input-box">
+                        <input type="text" name="email" id="newsletter2" title="Sign up for our newsletter" placeholder="Enter your email address" class="input-text required-entry validate-email">
+                        <button type="submit" title="Subscribe" class="button subscribe"><span>Subscribe</span></button>
+
+                    </div> &lt;!&ndash;input-box&ndash;&gt;
+                </div> &lt;!&ndash;newsletter-form&ndash;&gt;
+                <label class="subscribe-bottom"><input type="checkbox" name="notshowpopup" id="notshowpopup">Don’t show this popup again</label>
+            </form>
+
+
+
+        </div> &lt;!&ndash;newsletter&ndash;&gt;
+
+    </div> &lt;!&ndash;newsletter-sign-box&ndash;&gt;
+</div>
+-->
+
+<!-- ----------------------side navbar location and map------------------ -->
+<!-- _____________top menu search bar___________________ -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel">Select Your Location</h4>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <div class="model-title">
+                              <h3>Try at home and order your todays Vegetable etc.
+                              </h3>
+                          </div>
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Enter your delivery location">
+                              <span class="input-group-btn">
+                                  <button class="btn btn-success" type="button">Submit</button>
+                                </span>
+                          </div><!-- /input-group -->
+
+                          <div class="model-city">
+                              <p><b>
+                                  <a href="" class="_3zoZ8">Ahmedabad</a> |
+                                  <a href="" class="_3zoZ8">Mumbai</a> |
+                                  <a href="" class="_3zoZ8">Nagpur</a> |
+                                  <a href="" class="_3zoZ8">Pune</a> |
+                                  <a href="" class="_3zoZ8">Coimbatore</a> |
+                                  <a href="" class="_3zoZ8">Delhi</a> |
+                                  <a href="" class="_3zoZ8">Gurgaon</a>
+                              </b>
+                              </p>
+                          </div>
+
+                      </div><!-- /.col-lg-6 -->
+                  </div>
+              </div>
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Save changes</button>
+            </div>-->
+        </div>
+    </div>
+</div>
+<!-- _______________..//end _______________________________ -->
+
+<!-- ------------------login model------------------------ -->
+
+<div class="modal fade bs-example-modal-sm" id="costumModal19" data-easein="expandIn" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div id="croppr-login" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header tt_popup_login">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel"><strong><i class="fa fa-sign-in"></i> Sign in Or Register</strong></h4>
+                </div>
+                <div class="modal-body model-location">
+                    <div class="row">
+                        <div class="col-md-6 fisrt-rw">
+                            <div class="modal-body modal-spa">
+                                <div class="login-form1">
+                                    <form action="" method="post">
+
+                                        <div class="email">
+                                            <i class="fa fa-user"></i>
+                                            <input type="text" class="user" name="loginid" placeholder="Email" required="">
+                                        </div>
+
+                                        <div class="password">
+                                            <i class="fa fa-key"></i>
+                                            <input type="password" class="lock" name="Userpassword" placeholder="password" required="" value="">
+                                        </div>
+                                        <input type="submit" value="Login">
+                                    </form>
+                                    <p><a data-toggle="modal" data-target="#changepass" class="play-icon popup-with-zoom-anim">Forgot  Password?</a></p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 second-rw">
+                            <div class="col-reg login-customer">
+                                <h2>NEW HERE?</h2>
+                                <p class="note-reg">Registration is free and easy!</p>
+                                <ul class="list-log">
+                                    <li><i class="fa fa-angle-double-right"></i> Faster checkout</li>
+                                    <li><i class="fa fa-angle-double-right"></i> Save multiple shipping addresses</li>
+                                    <li><i class="fa fa-angle-double-right"></i> View and track orders and more</li>
+                                </ul>
+                                <a class="btn-reg-popup" title="Register" href="register.html">Create an account</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+
+<!-- =============================change password ==================================== -->
+<div class="modal fade" id="changepass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel"><i class="fa fa-exchange"></i> Change Password</h4>
+            </div>
+
+            <div class="modal-body form-horizontal form-group-separated">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Email Id</label>
+                    <div class="col-md-9">
+                        <input type="email" class="form-control" name="old_password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">New Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="new_password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Confirm Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="Confirm_password">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-reg-popup btn-change-pass" data-dismiss="modal">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- =================================..//end change password======================= -->
+<!-- ---------------------..//end login model----------------- -->
+<!-- -----------------..//end main page----------------------- -->
+
+<!-- --------------------..//end side navbar and map------------------- -->
+<!--<div id="fade"></div>-->
+
+<!-- JavaScript -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/revslider.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script type="text/javascript" src="assets/js/countdown.js"></script>
+<script type="text/javascript" src="assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.mobile-menu.min.js"></script>
+
+<!--
+<script type="text/javascript">
+    function HideMe()
+    {
+        jQuery('.popup1').hide();
+        jQuery('#fade').hide();
+    }
+</script>-->
+
+
+<script>
+    $(function(){
+        $('#changepass').on('show.bs.modal', function () {
+            $('#costumModal19').modal('hide');
+            console.log('model hide');
+        })
+        /*$('#changepass').click(function(){
+
+            console.log('foo');
+        });*/
+
+    });
+</script>
+
+<!-- ------------..end model fade for password -------------------------- -->
+
+
+    <!-- --------------- ------------slider -------------- -->
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('#thm-rev-slider').show().revolution({
+            dottedOverlay: 'none',
+            delay: 4000,
+            startwidth: 0,
+            startheight:500,
+
+            hideThumbs: 200,
+            thumbWidth: 200,
+            thumbHeight: 30,
+            thumbAmount: 2,
+
+            navigationType: 'thumb',
+            navigationArrows: 'solo',
+            navigationStyle: 'round',
+            autoplay : true,
+
+            touchenabled: 'on',
+            onHoverStop: 'off',
+
+            swipe_velocity: 0.7,
+            swipe_min_touches: 1,
+            swipe_max_touches: 1,
+            drag_block_vertical: false,
+
+            spinner: 'spinner0',
+            keyboardNavigation: 'off',
+
+            navigationHAlign: 'center',
+            navigationVAlign: 'bottom',
+            navigationHOffset: 0,
+            navigationVOffset: 20,
+
+            soloArrowLeftHalign: 'left',
+            soloArrowLeftValign: 'center',
+            soloArrowLeftHOffset: 20,
+            soloArrowLeftVOffset: 0,
+
+            soloArrowRightHalign: 'right',
+            soloArrowRightValign: 'center',
+            soloArrowRightHOffset: 20,
+            soloArrowRightVOffset: 0,
+
+            shadow: 0,
+            fullWidth: 'on',
+            fullScreen: 'on',
+
+            stopLoop: 'off',
+            stopAfterLoops: -1,
+            stopAtSlide: -1,
+
+            shuffle: 'on',
+
+            autoHeight: 'on',
+            forceFullWidth: 'off',
+            fullScreenAlignForce: 'off',
+            minFullScreenHeight: 0,
+            hideNavDelayOnMobile: 1500,
+
+            hideThumbsOnMobile: 'off',
+            hideBulletsOnMobile: 'off',
+            hideArrowsOnMobile: 'off',
+            hideThumbsUnderResolution: 0,
+
+            hideSliderAtLimit: 0,
+            hideCaptionAtLimit: 0,
+            hideAllCaptionAtLilmit: 0,
+            startWithSlide: 0,
+            fullScreenOffsetContainer: ''
+        });
+    });
+</script>
+
+<script>
+    $(function(){
+        $("[data-toggle=popover]").popover({
+            html: true,
+            container: 'body',
+            content: function() {
+                return $('#popover-content').html();
+            }
+
+        });
+    });
+</script>
+
+
+<!-- ---------------------------..//end slider----------- -->
+   </body>
+</html>

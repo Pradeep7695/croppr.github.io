@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Croppr</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no">
+    <meta name="description" content="Default Description">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="keywords" content="Croppr">
+    <meta name="robots" content="*">
+    <link rel="icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/css/revslider.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/other.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.mobile-menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="all">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,400italic,700,800,900' rel='stylesheet' type='text/css'>
+ -->
+
+</head>
+
+<body>
+<div id="page">
+    <header>
+        <div id="header" class="top-header-togle">
+            <div class="header-container container">
+                <div class="row">
+                    <div class="navbar-header">
+
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/images/logo/logocroppr.png" />
+                        </a>
+                        <div class="cropr-location hidden-lg hidden-md">
+                            <div class="location-map-cp"  data-toggle="modal" data-target="#myModal">
+                                <i class="fa fa-map-marker"></i> Mumbai
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="col-md-1 hidden-xs hidden-sm">
+                            <div class="mapp">
+                                <div class="_87dff map-loc">
+                                    <div class="_2z2N5"  data-toggle="modal" data-target="#myModal">
+                                <span class="_1tcx6">
+                                    <span class="_3odgy" style="cursor:pointer"><i class="fa fa-map-marker"></i> Mumbai</span></span>
+                                        <span class="icon-downArrow kVKTT"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 hidden-sm hidden-xs">
+                            <div class="collapse navbar-collapse top-searchbar">
+                                <form class="navbar-form" role="search">
+                                    <div class="input-group">
+                                        <input class="GlobalNavSearch js-globalSearchInput " placeholder="Search" id="desktopSearchInput" data-reactid=".1.0.0.0">
+                                        <label class="GlobalNavSearch-searchIcon" for="desktopSearchInput" data-reactid=".1.0.0.1"></label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-3 hidden-sm hidden-xs">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="login-btn">
+                                        <div class="login-btn">
+                                            <button type="button" class="btn-login continue"  data-toggle="modal" data-target="#costumModal19"><i class="fa fa-lock"></i>  Login</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-4 hidden-sm hidden-xs">
+                                    <div class="register-btn">
+                                        <div class="register-btn">
+                                            <button type="button" onclick="window.location.href='register.html';" class="btn-register continue"><i class="fa fa-sign-in"></i>  Register</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- --------cart design - ---------------- -->
+                                <div class="col-md-4 hidden-sm hidden-xs">
+                                    <div class="shopping_cart">
+                                        <div id="cart" class="btn-shopping-cart">
+
+                                            <a data-loading-text="Loading... " class="btn-group top_cart dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                <div class="shopcart">
+                                                  <span class="icon-c">
+                                                    <i class="fa fa-cart-plus"></i>
+                                                  </span>
+                                                    <div class="shopcart-inner">
+                                                        <!--<p class="text-shopping-cart">
+                                                            My cart
+                                                        </p>-->
+                                                        <span class="total-shopping-cart cart-total-full">
+                                                      <span class="items_cart">1</span>
+                                                    </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                            <ul class="dropdown-menu pull-right shoppingcart-box"><li class="content-item">
+                                                <table class="table table-striped" style="margin-bottom:10px;">
+                                                    <tbody>
+                                                    <tr id="wishlist1">
+                                                        <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p1.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                        <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                        <td class="text-right">x1</td>
+                                                        <td class="text-right">Rs.29,990.00</td>
+                                                        <td class="text-center"> <i class="fa fa-trash-o"></i> </td>
+                                                    </tr>
+                                                    <tr id="wishlist1">
+                                                        <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p5.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                        <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                        <td class="text-right">x1</td>
+                                                        <td class="text-right">Rs.29,990.00</td>
+                                                        <td class="text-center"> <i class="fa fa-trash-o"></i></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </li>
+                                                <li>
+                                                    <div class="checkout clearfix">
+                                                        <a href="wishlist.html" class="btn btn-success btn-view-cart"> View Cart</a>
+                                                        <a href="checkout.html" class="btn btn-checkout pull-right">Checkout</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ---------end cart design --------------- -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------header nav (main-menu) -------------------- -->
+        <div class="header-nav animate-dropdown">
+            <div class="container">
+                <div class="yamm navbar navbar-default" role="navigation">
+                    <nav class="navbar" id="main-menu">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+
+                                <!-- search icon resposive collapse -->
+                                <div class="crprres-icon  hidden-md hidden-lg">
+
+                                    <div class="top-menu">
+                                        <ul class="menu-topbar">
+                                            <li><a><i class="fa fa-search" data-placement="bottom" data-toggle="popover" data-container="body" data-html="true" id="login"></i></a></li>
+                                            <!-- --------search bar popover ------ -->
+                                            <div id="popover-content" class="hide popover">
+                                                <form class="form-inline" role="form">
+                                                    <div class="form-group">
+                                                        <input placeholder="Search here.." class="form-control" maxlength="5" type="text">
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                            <!-- --------..//popover search bar ---- -->
+                                            <li><a><i class="fa fa-user" data-toggle="modal" data-target="#costumModal19"></i></a></li>
+                                          <!--  <li><a href="register.html"><i class="fa fa-sign-in"></i></a></li>-->
+                                        </ul>
+                                    </div>
+                                    <div class="top-menu-cart">
+                                        <div class="shopping_cart">
+                                            <div id="cart" class="btn-shopping-cart">
+                                                <a data-loading-text="Loading... " class="btn-group top_cart dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                    <div class="shopcart">
+                                                  <span class="icon-c">
+                                                    <i class="fa fa-cart-plus"></i>
+                                                  </span>
+                                                        <div class="shopcart-inner">
+                                                            <!--<p class="text-shopping-cart">
+                                                                My cart
+                                                            </p>-->
+                                                            <span class="total-shopping-cart cart-total-full">
+                                                      <span class="items_cart">1</span>
+                                                    </span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+
+                                                <ul class="dropdown-menu pull-right shoppingcart-box"><li class="content-item">
+                                                    <table class="table table-striped" style="margin-bottom:10px;">
+                                                        <tbody>
+                                                        <tr id="wishlist1">
+                                                            <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p1.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                            <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                            <td class="text-right">x1</td>
+                                                            <td class="text-right">Rs.29,990.00</td>
+                                                            <td class="text-center"> <i class="fa fa-trash-o"></i> </td>
+                                                        </tr>
+                                                        <tr id="wishlist1">
+                                                            <td class="text-center size-img-cart"> <a href=""><img src="assets/images/products-images/p5.jpg" alt="Sofa cum bed" title="Sofa cum bed" class="img-thumbnail"></a> </td>
+                                                            <td class="text-left"><a href="">Vagitable</a>             </td>
+                                                            <td class="text-right">x1</td>
+                                                            <td class="text-right">Rs.29,990.00</td>
+                                                            <td class="text-center"> <i class="fa fa-trash-o"></i></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </li>
+                                                    <li>
+                                                        <div class="checkout clearfix">
+                                                            <a href="wishlist.html" class="btn btn-success btn-view-cart"> View Cart</a>
+                                                            <a href="checkout.html" class="btn btn-checkout pull-right">Checkout</a>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ..//end search icon -->
+
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav">
+
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Super Market</a>
+                                        <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 1150px;">
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">Fruits and Vegetables</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Fruit</a></li>
+                                                    <li class="link_container"><a href="">Root Veggies</a></li>
+                                                    <li class="link_container"><a href="">Salad Veggies</a></li>
+                                                    <li class="link_container"><a href="">More Vegetables</a></li>
+                                                    <li class="link_container"><a href="">Herbs and spices</a></li>
+                                                    <li class="link_container"><a href="">Fruit and Veggies Basket</a></li>
+                                                    <li class="link_container"><a href="">Exotic Vegetables</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">Chopped Fruits & Vegetables</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Cut Fruits</a></li>
+                                                    <li class="link_container"><a href="category.html">Chopped Vegetables</a></li>
+                                                    <li class="link_container"><a href="category.html">Sorted / Chopped Leaf Vegetables</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">Dairy Products</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Milk and Yogurt Counter</a></li>
+                                                    <li class="link_container"><a href="">Cheese Counter</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-2">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">Drinks </a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Mineral Water</a></li>
+                                                    <li class="link_container"><a href="">Cold Milk Drinks</a></li>
+                                                    <li class="link_container"><a href="">Soft Drinks</a></li>
+                                                    <li class="link_container"><a href="">Fruit Juice</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">Fresh Bakery </a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bread and Baked Goods</a></li>
+                                                    <li class="link_container"><a href="category.html">Makeup</a></li>
+
+                                                </ul>
+                                            </li>
+
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">HouseHold and Cleaning </a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Laundry Care</a></li>
+                                                    <li class="link_container"><a href="">Home Care</a></li>
+                                                    <li class="link_container"><a href="">Office and Stationary</a></li>
+
+                                                </ul>
+                                            </li>
+
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">Food Cupboard </a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Sprouts and Staples</a></li>
+                                                    <li class="link_container"><a href="">Vinegars, Oil and Ghee</a></li>
+                                                    <li class="link_container"><a href="">Spices and Masala</a></li>
+                                                    <li class="link_container"><a href="">Spreads</a></li>
+                                                    <li class="link_container"><a href="">Breakfast Ready</a></li>
+                                                    <li class="link_container"><a href="">Pulses</a></li>
+                                                    <li class="link_container"><a href="">Dry Fruits and Nuts</a></li>
+                                                    <li class="link_container"><a href="">Noodles, Sauces and Instant Food</a></li>
+
+                                                </ul>
+                                            </li>
+
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Wine and Spirits</a>
+                                        <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 1000px;">
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP WINE</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP WINE 2</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP WINE 3</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP WINE 4</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">The Organic Market</a>
+                                        <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 1000px;">
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Promotions</a>
+                                        <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 1000px;">
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Gifts and Donations</a>
+                                        <ul class="dropdown-menu mega_dropdown" role="menu" style="width: 1000px;">
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3 border">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="block-container col-sm-3">
+                                                <ul class="block-megamenu-link">
+                                                    <li class="link_container group_header">
+                                                        <a href="#">TOP FASHION</a>
+                                                    </li>
+                                                    <li class="link_container"><a href="">Bath & Body</a></li>
+                                                    <li class="link_container"><a href="">Makeup</a></li>
+                                                    <li class="link_container"><a href="">Creams & Lotions</a></li>
+                                                    <li class="link_container"><a href="">Sunscreens</a></li>
+                                                    <li class="link_container"><a href="">Face Packs/Facial</a></li>
+                                                    <li class="link_container"><a href="">Spa & Body grances</a></li>
+                                                    <li class="link_container"><a href="">Women's Hygiene</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+                                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                                        <ul class="dropdown-menu dropdown-menu-page  mega_dropdown container-fluid" role="menu">
+                                            <li class="link_container"><a href="dashboard.html"><span>My Account</span></a></li>
+                                            <li class="link_container"><a href="checkout.html"><span>Checkout</span></a> </li>
+                                            <li class="link_container"> <a href="contact_us.html"> <span>Contact Us</span> </a> </li>
+                                            <li class="link_container"> <a href="about_us.html"> <span>About Us</span> </a> </li>
+                                            <li class="link_container"> <a href="JavaScript:void(0);" data-toggle="modal" data-target="#costumModal19"> <span>Login</span> </a> </li>
+                                            <li class="link_container"> <a href="register.html"> <span>Signup</span> </a> </li>
+                                            <li class="link_container"> <a href="privacy_policy.html"> <span>Privacy Policy</span> </a> </li>
+                                            <li class="link_container"> <a href="wishlist.html"> <span>Wishlist</span> </a> </li>
+                                            <li class="link_container"> <a href="term_condition.html"> <span>Terms & Condition</span> </a> </li>
+                                            <li class="link_container"> <a href="return_policy.html"> <span>Return Policy</span> </a> </li>
+                                            <li class="link_container"> <a href="order_history.html"> <span>Order History</span> </a> </li>
+                                            <li class="link_container"> <a href="return_refund.html"> <span>Returns & Refund</span> </a> </li>
+                                            <li class="link_container"><a href="404.html"><span>404 Error Page</span></a> </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </div><!--/.nav-collapse -->
+                        </div>
+                    </nav>
+
+                </div><!-- /.navbar-default -->
+            </div><!-- /.container-class -->
+
+            <div>
+            </div>
+        </div>
+        <!-- ---------------------..//end main header ---------------------- -->
+    </header>
+
+    <!-- BEGIN Main Container -->
+
+    <section class="main-container col2-right-layout top-section">
+        <div class="main container">
+            <div class="row">
+                <section class="col-main col-sm-9 col-xs-12 wow bounceInUp animated animated animated" style="visibility: visible;">
+                    <div class="my-account">
+
+                        <!--page-title-->
+                        <!-- BEGIN DASHBOARD-->
+                        <div class="dashboard">
+                            <!-- ----------user profile --------- -->
+                            <div class="col2-set">
+                                <div class="main-profile">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="img-profile">
+                                                <img class="img-responsive images" src="assets/images/small-no-user.jpg">
+                                                <div class="upload-pro middle">
+                                                    <div class="file btn btn-lg btn-primary">
+                                                        <i class="fa fa-upload"></i> Upload
+                                                        <input type="file" name="file"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="user-details-pro">
+                                                <ul>
+                                                    <li class="u-name"><p>Pradeep Kushwaha</p></li>
+                                                    <li class="u-contactno"><p><i class="fa fa-phone"></i> +91 9876543210</p></li>
+                                                    <li class="u-email"><p><i class="fa fa-envelope-o"></i> pradeepkushwaha@gmail.com</p></li>
+                                                </ul>
+                                            </div>
+                                            <div class="gender">
+                                                <div class="form-group">
+                                                    <label class="radio-inline"><input type="radio" name="optradio" checked> Male</label>
+                                                    <label class="radio-inline"><input type="radio" name="optradio"> Female</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 backtodash">
+                                            <button class="btn btn-success" onclick="window.location.href='dashboard.html';"><i class="fa fa-reply"></i> Back To Dashboard</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- --------end profile user-------- -->
+                            <hr>
+                            <!--recent-orders-->
+                            <div class="box-account">
+                                <div class="col2-set">
+                                    <div class="box-account">
+                                        <!-- Acount Information -->
+                                        <form method="post" action="#" id="editvendor" enctype="multipart/form-data" style="margin-left: 0px;">
+                                            <fieldset>
+
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">Name</label>
+                                                        <input type="text" value="Pradeep" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">Contact No.</label>
+                                                        <input type="text" value="9876543210" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">Email</label>
+                                                        <input type="text" value="pradeep@gamail.com" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">Address</label>
+                                                        <input type="text" value="Malad East" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">City</label>
+                                                        <input type="text" value="Mumabi" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">Pin Code</label>
+                                                        <input type="text" value="400064" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">State</label>
+                                                        <input type="text" value="Maharastra" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group has-primary has-feedback">
+                                                        <label class="control-label">Country</label>
+                                                        <input type="text" value="India" class="form-control">
+                                                        <span class="fa fa-edit form-control-feedback"></span>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </form>
+                                        <div class="changes-pass">
+                                            <a href=""><button type="button" class="btn btn-sub-acinfo"><i class="fa fa-refresh"></i>  Save Changes</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col2-set">
+
+                                    <!--box-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--col-main col-sm-9 wow bounceInUp animated-->
+                <aside class="col-right sidebar col-sm-3 col-xs-12 wow bounceInUp animated animated animated" style="visibility: visible;">
+                    <div class="block block-account">
+                        <div class="block-title"> My Account </div>
+                        <div class="block-content">
+                            <ul>
+                                <li class=""><a href="dashboard.html">Dashboard</a></li>
+                                <li class="active"><a href="edit_profile.html"><span> Edit Profile</span></a></li>
+                                <li class=""><a href="manage_address.html"><span> Manage Address</span></a></li>
+                                <li><a href="wishlist.html"><span> Wish List</span></a></li>
+                                <li><a href="order_history.html"><span> Order History</span></a></li>
+                                <li><a href="#" data-target="#change-password" data-toggle="modal"><span> Change Password</span></a></li>
+                                <li><a href="index.html"><span> Logout</span></a></li>
+                            </ul>
+                        </div>
+                        <!--block-content-->
+                    </div>
+                    <!--block block-account-->
+
+
+                </aside>
+                <!--col-right sidebar col-sm-3 wow bounceInUp animated-->
+            </div>
+            <!--row-->
+        </div>
+        <!--main container-->
+    </section>
+    <!-- For version 1,2,3,4,6 -->
+
+    <footer>
+        <!-- BEGIN INFORMATIVE FOOTER -->
+        <div class="footer-inner">
+            <div class="newsletter-row">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Newsletter -->
+                        <div class="col-lg-12 col-md-12 col-sm-8 col-xs-12 col1">
+                            <div class="newsletter-wrap">
+                                <h4>Sign up for Email</h4>
+                                <form action="#" method="post" id="newsletter-validate-detail1">
+                                    <div id="container_form_news">
+                                        <div id="container_form_news2">
+                                            <input type="text" name="email" id="newsletter1" title="Sign up for our newsletter" class="input-text required-entry validate-email" placeholder="Enter your email address">
+                                            <button type="submit" title="Subscribe" class="button subscribe"><span>Subscribe</span></button>
+                                        </div>
+                                        <!--container_form_news2-->
+                                    </div>
+                                    <!--container_form_news-->
+                                </form>
+
+                            </div>
+                            <!--newsletter-wrap-->
+                        </div>
+
+                    </div>
+                </div>
+                <!--footer-column-last-->
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 col-lg-4">
+                        <div class="co-info">
+                            <h4>Contact Us</h4>
+                            <address>
+                                <div><em class="icon-location-arrow"></em> <span>Viral Shopping Center, Malad East</span></div>
+                                <div> <em class="icon-mobile-phone"></em><span> +(91) 9876543210</span></div>
+                                <div> <em class="icon-envelope"></em><span>Demo@test.com</span></div>
+                            </address>
+                            <div class="social">
+
+                                <ul class="link">
+                                    <li class="fb pull-left"><a target="_blank" rel="nofollow" href="#" title="Facebook"></a></li>
+                                    <li class="tw pull-left"><a target="_blank" rel="nofollow" href="#" title="Twitter"></a></li>
+                                    <li class="googleplus pull-left"><a target="_blank" rel="nofollow" href="#" title="GooglePlus"></a></li>
+                                    <li class="rss pull-left"><a target="_blank" rel="nofollow" href="#" title="RSS"></a></li>
+                                    <li class="pintrest pull-left"><a target="_blank" rel="nofollow" href="#" title="PInterest"></a></li>
+                                    <li class="linkedin pull-left"><a target="_blank" rel="nofollow" href="#" title="Linkedin"></a></li>
+                                    <li class="youtube pull-left"><a target="_blank" rel="nofollow" href="#" title="Youtube"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-xs-12 col-lg-8">
+                        <div class="footer-column">
+                            <h4>Information</h4>
+                            <ul class="links">
+                                <li><a href="contact_us.html">Contact Us</a></li>
+                                <li><a href="term_condition.html">Terms & Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Why buy from us</h4>
+                            <ul class="links">
+                                <li class="first"><a href="return_refund.html">Returns and Refund</a></li>
+                                <li><a  href="order_return.html">Orders and Returns</a></li>
+                                <li><a href="return_policy.html"> Return Policy</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul class="links">
+                                <li class="first"><a href="" data-toggle="modal" data-target="#costumModal19">Sign In</a></li>
+                                <li><a href="register.html" >Sign Up</a></li>
+                                <li class="first"><a href="dashboard.html" >My Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End For version 1,2,3,4,6 -->
+
+    <div class="last-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block-coppyright text-center">
+                        © 2018 | Croppr All Rights &amp;  Reserved. Powered By <a href="https://www.itarsia.com/" class="itarsia" target="_blank">Itarsia India</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--page-->
+<!-- Mobile Menu-->
+
+<!-- ========================all model fade ======================================== -->
+<!-- ____________top menu model for location bar___________________ -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel">Select Your Location</h4>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="model-title">
+                                <h3>Try at home and order your todays Vegetable etc.
+                                </h3>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Enter your delivery location">
+                                <span class="input-group-btn">
+                                  <button class="btn btn-success" type="button">Submit</button>
+                                </span>
+                            </div><!-- /input-group -->
+
+                            <div class="model-city">
+                                <p><b>
+                                    <a href="" class="_3zoZ8">Ahmedabad</a> |
+                                    <a href="" class="_3zoZ8">Mumbai</a> |
+                                    <a href="" class="_3zoZ8">Nagpur</a> |
+                                    <a href="" class="_3zoZ8">Pune</a> |
+                                    <a href="" class="_3zoZ8">Coimbatore</a> |
+                                    <a href="" class="_3zoZ8">Delhi</a> |
+                                    <a href="" class="_3zoZ8">Gurgaon</a>
+                                </b>
+                                </p>
+                            </div>
+
+                        </div><!-- /.col-lg-6 -->
+                    </div>
+                </div>
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Save changes</button>
+            </div>-->
+        </div>
+    </div>
+</div>
+<!-- _______________..//end _______________________________ -->
+
+<!-- ------------------login model------------------------ -->
+<div class="modal fade bs-example-modal-sm" id="costumModal19" data-easein="expandIn" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div id="croppr-login" class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header tt_popup_login">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel"><strong><i class="fa fa-sign-in"></i> Sign in Or Register</strong></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 fisrt-rw">
+                            <div class="modal-body modal-spa">
+                                <div class="login-form1">
+                                    <form action="" method="post">
+
+                                        <div class="email">
+                                            <i class="fa fa-user"></i>
+                                            <input type="text" class="user" name="loginid" placeholder="Email" required="">
+                                        </div>
+
+                                        <div class="password">
+                                            <i class="fa fa-key"></i>
+                                            <input type="password" class="lock" name="Userpassword" placeholder="password" required="" value="">
+                                        </div>
+                                        <input type="submit" value="Login">
+                                    </form>
+                                    <p><a data-toggle="modal" data-target="#changepass" class="play-icon popup-with-zoom-anim">Forgot  Password?</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 second-rw">
+                            <div class="col-reg login-customer">
+                                <h2 class=" hidden-sm hidden-xs">NEW HERE?</h2>
+                                <p class="note-reg hidden-sm hidden-xs">Registration is free and easy!</p>
+                                <ul class="list-log hidden-sm hidden-xs">
+                                    <li><i class="fa fa-angle-double-right"></i> Faster checkout</li>
+                                    <li><i class="fa fa-angle-double-right"></i> Save multiple shipping addresses</li>
+                                    <li><i class="fa fa-angle-double-right"></i> View and track orders and more</li>
+                                </ul>
+                                <a class="btn-reg-popup" title="Register" href="register.html">Create an account</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+
+<!-- =============================forgot password ==================================== -->
+<div class="modal fade" id="changepass" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-exchange"></i>  Forgot Password</h4>
+            </div>
+
+            <div class="modal-body form-horizontal form-group-separated">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Email Id</label>
+                    <div class="col-md-9">
+                        <input type="email" class="form-control" name="old_password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">New Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="new_password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Confirm Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="Confirm_password">
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-reg-popup btn-change-pass" data-dismiss="modal">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- ============================..//end all model fade =============================== -->
+
+<!-- =============================change password ==================================== -->
+<div class="modal fade" id="change-password" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"><i class="fa fa-exchange"></i>  Change Password</h4>
+            </div>
+
+            <div class="modal-body form-horizontal form-group-separated">
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Old Password</label>
+                    <div class="col-md-9">
+                        <input type="email" class="form-control" name="old_password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">New Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="new_password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label">Confirm Password</label>
+                    <div class="col-md-9">
+                        <input type="password" class="form-control" name="Confirm_password">
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-reg-popup btn-change-pass" data-dismiss="modal">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- ============================..//end all model fade =============================== -->
+
+
+<!-- JavaScript -->
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/parallax.js"></script>
+<script type="text/javascript" src="assets/js/revslider.js"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.mobile-menu.min.js"></script>
+
+<!-- ------------------javascript ------------------------ -->
+<script>
+    $(function(){
+        $('#changepass').on('show.bs.modal', function () {
+            $('#costumModal19').modal('hide');
+            console.log('model hide');
+        })
+    });
+</script>
+
+<script>
+    $(function(){
+        $("[data-toggle=popover]").popover({
+            html: true,
+            container: 'body',
+            content: function() {
+                return $('#popover-content').html();
+            }
+
+        });
+    });
+</script>
+
+
+<!-- -------------------..//end  javascript ------------------- -->
+
+</body>
+
+</html>
+
